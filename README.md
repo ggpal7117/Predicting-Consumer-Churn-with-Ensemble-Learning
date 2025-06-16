@@ -12,3 +12,8 @@ To first explain Random Forests and Gradient Boost models, we must first underst
 
 ## Random Forest
 The random forest algorithm utilizes multiple decision trees, independent from each other, to make predictions on random subsets of the training data. Random Forests use a process called bagging to train subsets of the data. 
+
+![Image](https://github.com/user-attachments/assets/fcbde255-b55d-48c2-a609-900927f4e547)
+
+## Gradient Boosting
+The Gradient Boost Model is similar to the Random Forest algorithm, however uses a slightly different process called boosting. This means, results are aggregated throughout the algorithm's process instead of at the end. Each tree used in the algorithm is built on the previous tree's errors, and this gives it the power to learn complex patterns in the data.
