@@ -17,3 +17,13 @@ The random forest algorithm utilizes multiple decision trees, independent from e
 
 ## Gradient Boosting
 The Gradient Boost Model is similar to the Random Forest algorithm, however uses a slightly different process called boosting. This means, results are aggregated throughout the algorithm's process instead of at the end. Each tree used in the algorithm is built on the previous tree's errors, and this gives it the power to learn complex patterns in the data.
+
+![Image](https://github.com/user-attachments/assets/24ed41a4-34ed-4dd5-8eb5-f24fe2379551)
+
+# Hyperparameter Tuning
+Since Gradient Boosting and Random Forests are sometimes prone to overfitting training data, we will use RandomSearchCV to find the best hyperparameters for each model. This process samples subsets of models with certain parameters by using cross-validation.
+
+# Testing/Predictions
+After fitting the best models on the training data, we can then make predictions on the test set of the data. After evaluating both models, we can see their effectiveness as they make ~87% correct predictions.
+
+## Thank you
