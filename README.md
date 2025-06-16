@@ -7,3 +7,6 @@ The first step of this project is transforming the data, mainly into training an
 
 ## Decision Trees
 To first explain Random Forests and Gradient Boost models, we must first understand what a decision tree is. Simply, a decision tree is just a sequence of questions until a prediction has been reached. The model starts with the dataset at the root node, and then chooses important features to split the data into smaller subsets. This splitting process continues until a leaf node is reached, where a prediction is eventually made.
+![Image](https://github.com/user-attachments/assets/8d5aa862-e53e-474f-b8e5-c4419660fc14)
+
+
