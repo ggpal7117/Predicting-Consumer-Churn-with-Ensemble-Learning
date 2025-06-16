@@ -1,1 +1,3 @@
 # Predicting-Consumer-Churn-with-Ensemble-Learning
+Ensemble learning is a Machine Learning technique that utilizes multiple learners/models to make better predictions. Two common ensemble learning methods are Gradient Boosting and Random Forest. These models are especially good with larger datsets, like the Consumer Churn dataset that has 10000 rows of data.
+The churn dataset gives information about a person at a specific bank like where they are from, their bank balance, salary, etc. The dataset once transformed has a very large amount of features, which is why these ensemble learning techniques can help by reducuing variance, and combining a multitude of predictors(decision trees).
